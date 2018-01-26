@@ -1,0 +1,26 @@
+{
+	"name": "SuperChat_With_React",
+	"version": "0.1.1",
+	"description": "A super smooth chat with React",
+	"main": "server.js",
+	"engines": {
+		"node": "8.9.4",
+		"npm": "5.6.0"
+	},
+	"scripts": {
+		"start": "NODE_ENV=production dist/server.js",
+		"dev": "NODE_ENV=development nodemon --exec babel-node dev/server.js"
+	},
+	"keywords": [],
+	"author": "D.Romero <romerodeveloper@techie.com>",
+	"license": "MIT",
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-preset-env": "^1.6.1",
+		"body-parser": "^1.18.2",
+		"compression": "^1.7.1",
+		"express": "^4.16.2",
+		"mongoose": "^5.0.1",
+		"morgan": "^1.9.0"
+	}
+}
