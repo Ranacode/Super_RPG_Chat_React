@@ -10,17 +10,14 @@ app.use(compression()); // Compress the coming requests for better performance
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-//Allows use a proxy
-app.set('trust proxy', true);
+app.set('trust proxy', true); //Allows use a proxy
 
 //Logger
-if (process.env.NODE_ENV === 'test') {
-	app.use(logger('combined'));
-} else {
-	app.use(logger('dev'));
-}
+let mode = 'combined';
+if (process.env.NODE_ENV === 'test') mode = 'dev';
+app.use(logger(mode));
 
-//End function to handle the errors that comes from express callbacks
+//End function to handle errors that comes from express callbacks
 if (process.env.NODE_ENV === 'development') {
 	app.use(function(err, req, res, next) {
 		console.error(`INTERNAL SERVER ERROR: ${err}`);
