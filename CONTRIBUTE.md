@@ -19,7 +19,17 @@ Our real-time engine it's **Socket.IO,** the version 2.0 it's better than the ol
 
  ***Socket.IO enables real-time bidirectional event-based communication. It works on every platform, browser or device, focusing equally on reliability and speed.***
 
+### Front-End
+The client was started with the official boilerplate from the React team so we can focus on develop the components without worrying about configurations. For now, we're not gonna eject the webpack configuration but I don't dismiss out doing in the future.
 
+CSS - *Working on it...*
+
+Third-Party libraries - *Working on it...*
+
+### Back-End
+**Node, Express, MongoDB + mongoose(ODM) and Socket.IO** will be the main stack for now but I'm doing a research around the real-time database **"RethinkDB"** and seems very good, maybe MongoDB will be replaced by this database but don't freak out just keep it mind for future releases.
+
+#### NoSQL basic diagram ***(you can contribute on it as well)***
 
 ![nosql_diagram](https://image.ibb.co/bGVmTb/NOSQL_compressor.png)
  
