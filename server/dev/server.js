@@ -14,7 +14,12 @@ mongoDB
 
 		const PORT = process.env.PORT || 8000;
 		server.listen(PORT, (error) => {
-			error ? process.exit() : console.log(`SERVER LISTENING ON PORT ${PORT}...`);
+			error ? process.exit(error) : console.log(`SERVER LISTENING ON PORT ${PORT}...`);
 		});
 	})
 	.catch((error) => console.error(error));
+
+//Event listener for the "exit" event that can occurs inside the .listen() function above
+process.on('exit', (code) => {
+	console.log(`About to exit with code: ${code}`);
+});
