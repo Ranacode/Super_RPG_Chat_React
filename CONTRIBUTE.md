@@ -55,17 +55,24 @@ With the help of [Express.JS](https://expressjs.com) we're building an API that 
 ### Endpoints <a name="endpoints"></a>
 This not means that every endpoint have his own file but on the model on which it applies, for example a **"user"** folder contains the endpoints that directly affects the user *(as an exception around the **Auth process** that have his own folder named **"auth"**)*
 
-### Models <a name="models></a>
+### Models <a name="models"></a>
 The database models, contains all the collections that we save into our database. We have an **User collection** where the other collections revolves around him. The [mongoose ODM](https://mongoosejs.com) is the chosen one to make the models so we're gonna use the **Schemas** from it. This NoSQL diagram maybe can clarify your mind around the general concept with which our application works:
 
 ![nosql_diagram](https://image.ibb.co/bGVmTb/NOSQL_compressor.png)
-
+- - -
 #### Attributes 
 All of that attributes have a purpose as well and explanation for their job inside the application. Let's break down these attributes: 
 ##### User 
+###### (Google, Facebook, Twitter)ID
+This fields are optional and allow us save the id from their social profiles if they choose sign up into our application using one of those platforms. **OAuth2.0** is the way to achieve this social authentication, and we implement it with the 
+[Passport.JS](http://www.passportjs.org/) library.
 
-
-
+###### Username, email and password
+This fields are for the normal authentication that has accompanied us all our lives using email and password. We secure the passwords in our database using the [BcryptJS](https://www.npmjs.com/package/bcryptjs) library with extra salt to avoid rainbow attacks.
+The emails have the unique key on mongoose.Schema and can't be duplicated, so we avoid the possibility to use multiple accounts with the same email.
+###### Avatar
+In the process of signup the avatar is completely optional and can be upload later in the profile settings zone, if the user don't provide anyone we fill the avatar with this default image: 
+<p align="center"><img width="125" height="125" src="https://www.shareicon.net/download/2016/07/10/119669_people_512x512.png"/></p>
 
 - **Tests:** This folder contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
 
