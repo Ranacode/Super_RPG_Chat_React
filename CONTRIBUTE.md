@@ -74,7 +74,27 @@ The emails have the unique key on mongoose.Schema and can't be duplicated, so we
 In the process of signup the avatar is completely optional and can be upload later in the profile settings zone, if the user don't provide anyone we fill the avatar with this default image: 
 <p align="center"><img width="125" height="125" src="https://www.shareicon.net/download/2016/07/10/119669_people_512x512.png"/></p>
 
-- **Tests:** This folder contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
+###### Achievements
+An array containing all the unlocked achievements, the achievement it's a collection itself so you can get more detailed information in his respective zone.
+###### Messages
+All the messages that the user has writed into the chat, they can be checked in the profile zone.
+###### totalScore
+All the accumulated score from the day it was registered, this field saves float numbers and can be obtained writing in the chat, attack other users, defend agains them, leveling up, unlock achievements, etc. 
+###### monthScore
+This field can be used to display the TOP 10 highscore every month and obviously it will be reset each month.
+###### Level
+*You can obtain more detailed explanation of this field in the appropiate zone* but on resume, with each level the user acquire new skills, unlock new achievements and the attributes grow up. There is no maximum level for now.
+###### Attributes
+It represents the fight statistics for the user, *you can obtain more detailed explanation of this field in the appropiate zone.*
+###### Skills
+Special abilities that can perform unique tasks, attacks or just an extra interaction between users, *you can obtain more detailed explanation of this field in the appropiate zone.*
+###### Defeated
+The users can be defeated and are penalized with a small portion of the score, some minutes without can type anything in the chat *(but can still watching the room)* and almost all the skills cannot be activated during this period.
+###### createdAt, lastConnection
+Timestamps to make some statistis inside the application, the last connection can be showed in the user profile.
+- - -
+### Tests
+This folder contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
 
 
  
