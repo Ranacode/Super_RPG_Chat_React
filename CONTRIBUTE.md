@@ -1,4 +1,7 @@
 # Guidelines to achieve a proper organization
+
+![team_gif](https://media.giphy.com/media/WCAXAidzhmwlG/giphy.gif)
+
 ### Here you can find all the information **related to the project in technical terms.** You are invited to open an issue if you need more information or giving us a better feedback about this page based on your experience contributing to other open source projects.
 
 #### We're open to all the corrections you can do in this document, all of us can benefit thanks to your voluntary effort :)
@@ -93,6 +96,17 @@ The users can be defeated and are penalized with a small portion of the score, s
 ###### createdAt, lastConnection
 Timestamps to make some statistis inside the application, the last connection can be showed in the user profile.
 - - -
+##### Achievement
+###### Owner
+The user that unlocked this achievement
+###### Title
+Descriptive title 
+###### Description
+Short description and the condition that the user reached to unlock this achievement
+###### unlockAt
+Date on which the user unlocked this achievement
+
+
 ### Tests
 This folder contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
 
