@@ -38,6 +38,16 @@ It's the rockstar library that allows run Javascript on the server side but that
 Our real-time engine it's **Socket.IO,** the version 2.0 it's better than the old one and this time it's really fast. We leave here the main description from the official website: 
 
  ***Socket.IO enables real-time bidirectional event-based communication. It works on every platform, browser or device, focusing equally on reliability and speed.***
+ 
+ ## Mocha 
+  <p align="center"><img width="300" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgJOqvBKr6g0Phy3GeJwdI5z3VZYLlfEAQL0YqgkXBQKyc-XldNg"/></p>
+  Mocha is the top test framework for javascript running on Node.JS and allow us run and test asynchronous code easily. Run test through a script on package.json it was never so easy. We leave here the description from the official website: 
+  
+  ***Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.***
+  
+ ## Jest
+ <p align="center"><img width="200" height="200" src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/940/landscape/jestlogo.png"/></p>
+ It's the zero configuration tool to testing javascript, especially a React project. We choose it based on his ease of doing tests.
 - - -
 # Front-End <a name="frontend"></a>
 The client was started with the official boilerplate from the React team so we can focus on develop the components without worrying about configurations. For now, we're not gonna eject the webpack configuration but I don't dismiss out doing in the future.
@@ -104,7 +114,7 @@ Descriptive title
 Short description and the condition that the user reached to unlock this achievement
 ###### unlockAt
 Date on which the user unlocked this achievement
-
+- - -
 ##### Message
 ###### Author
 The original creator of the message.
@@ -116,7 +126,7 @@ The date that the message was created.
 Special skills that the message have depends on the user level
 ###### powerUp
 Special buffs that are applied to the chat
-
+- - -
 ##### Skill
 ###### Owner
 The user that have this skill and can use it.
@@ -132,7 +142,7 @@ Applied effects and what attributes can be seen affected.
 Each skill have a reloadTime to avoid the abuse of these.
 ###### Modifiers
 Different modifiers that can change the behavior of the message, user attributes, skills power ups and so on.
-
+- - -
 ##### Attribute
 ###### Owner
 The user in which these attributes are applied.
@@ -148,10 +158,12 @@ An extra parameter that can reduce the amount of damage that the user can receiv
 The probability by which an attack or a skill can be repeated a number of times depending on the number of succesfull "dice rolls"
 ###### Crit
 The probability by which an attack can be modified with an extra damage based on multipliers.
+- - -
 
+### Tests (all the folders would be named "test")
+#### Server-side (Mocha + Chai ~ Chai-HTTP)
+We have one folder inside the API that contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
 
-### Tests
-This folder contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
-
-
+#### Client-side (Jest)
+We have one folder inside the client that contains all the test related to the React components and all the Javascript stuff, 
  
