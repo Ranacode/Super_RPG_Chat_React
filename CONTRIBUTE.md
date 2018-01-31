@@ -106,6 +106,33 @@ Short description and the condition that the user reached to unlock this achieve
 ###### unlockAt
 Date on which the user unlocked this achievement
 
+##### Message
+###### Author
+The original creator of the message.
+###### body
+Main content of the message, can contain special codes for the skills and powerUps.
+###### createdAt
+The date that the message was created.
+###### aptitudes
+Special skills that the message have depends on the user level
+###### powerUp
+Special buffs that are applied to the chat
+
+##### Skill
+###### Owner
+The user that have this skill and can use it.
+###### Title
+Title that define the skill itself.
+###### Description
+Short description that explain what this skill can do and When and Where to use
+###### requiredLevel
+Level required to unlock this skill that allow each user use it.
+###### Effect
+Applied effects and what attributes can be seen affected.
+###### reloadTime
+Each skill have a reloadTime to avoid the abuse of these.
+###### Modifiers
+Different modifiers that can change the behavior of the message, user attributes, skills power ups and so on.
 
 ### Tests
 This folder contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
