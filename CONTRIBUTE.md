@@ -46,7 +46,7 @@ Our real-time engine it's **Socket.IO,** the version 2.0 it's better than the ol
   ***Mocha tests run serially, allowing for flexible and accurate reporting, while mapping uncaught exceptions to the correct test cases.***
   
  ## Jest
- <p align="center"><img width="200" height="200" src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/940/landscape/jestlogo.png"/></p>
+ <p align="center"><img width="200" height="170" src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/940/landscape/jestlogo.png"/></p>
  It's the zero configuration tool to testing javascript, especially a React project. We choose it based on his ease of doing tests.
 - - -
 # Front-End <a name="frontend"></a>
