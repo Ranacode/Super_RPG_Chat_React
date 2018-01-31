@@ -24,7 +24,6 @@
 ### The main technologies we're using right now to make this real are [React.JS](https://reactjs.org) combined with [Node.JS](https://nodejs.org) and [Socket.IO](https://socket.io). 
 
 
-
 ## React <a name="react"></a>
 <p align="center"><img width="200" height="200" src="https://raw.githubusercontent.com/rexxars/react-hexagon/HEAD/logo/react-hexagon.png"/></p>
 The reason behind this decision it's because this project need a lot of dinamically render working with DOM and this library it's the approach for it right now, even the component-based architecture help us to develop this project with a good maintanibility and better scalability.
@@ -133,6 +132,23 @@ Applied effects and what attributes can be seen affected.
 Each skill have a reloadTime to avoid the abuse of these.
 ###### Modifiers
 Different modifiers that can change the behavior of the message, user attributes, skills power ups and so on.
+
+##### Attribute
+###### Owner
+The user in which these attributes are applied.
+###### Life
+The amount of damage that this user can resist, when it reaches zero or a negative number, the user is defeated.
+###### Energy 
+This attribute is needed to use skills, each skill have a specific amount of energy  cost.
+###### Strength
+The amount of damage the user can do to other people.
+###### Defense
+An extra parameter that can reduce the amount of damage that the user can receive.
+###### Chaining
+The probability by which an attack or a skill can be repeated a number of times depending on the number of succesfull "dice rolls"
+###### Crit
+The probability by which an attack can be modified with an extra damage based on multipliers.
+
 
 ### Tests
 This folder contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
