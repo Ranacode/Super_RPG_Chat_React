@@ -189,21 +189,36 @@ We have one folder inside the API that contains all the tests related to the API
 We have one folder inside the client that contains all the test related to the React components and all the Javascript stuff. Jest is the chosen one for this project because of its simplicity, reliability and of course the **zero configuration** that provides us a better workflow which we can focus to develop the tests.
  
  # Mockups <a name="mockups"></a>
- ### Color Palette: 
- The color combination it's an important part of UI design, here you have the colors that we're using into our application , combine them as you want: 
- ##### Cold colors
+ ## Color Palette: 
+ The color combination it's an important part of UI design, here you have the colors that we're using into our application , combine them as you want. The colors are ordered in vertical based on the image.
+ ### Cold colors
  ![color_palette_cold](https://image.ibb.co/dGBEb6/Colorpalettechat.png)
  - #071A52
  - #086972
  - #17B978
  - #A77F83
- ##### Warm colors
+ ### Warm colors
   ![color_palette_warm](https://image.ibb.co/idmfG6/Colorpalettechat2.png)
  - #FFE3B7
  - #840404
  - #CB0101
  - #FFAFF00
  
+ ## Font types
+ *WORKING ON IT ...*
+ 
+ ## Screens
+ ### Chat Room -  *NOT YET*
+ ### User-Profile -  *NOT YET*
+ ### Achievements zone -  *NOT YET*
+ ### How to play -  *NOT YET*
+ ### Skills zone -  *NOT YET*
+ ### Table of levels -  *NOT YET*
+ ### Highscores hall -  *NOT YET*
+ ### About -  *NOT YET*
+ ### Landing page -  *NOT YET*
+ 
+  
 # RPG STUFF <a name="rpgstuff"></a>
 <p align="center"><img width="125" height="125" src="https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/edd/2015/07/Super-Platformer-Royalty-Free-Game-Art-Set.png"/></p>
 
