@@ -7,7 +7,7 @@
 #### We're open to all the corrections you can do in this document, all of us can benefit thanks to your voluntary effort :)
 
 
-## Open issues now: 
+## Open tasks now: 
 #### Custom image or logo designs for the contribute page *(for each section)*
 
 
@@ -25,7 +25,7 @@
         - [Attributes explained](#attributes)
    - [DevOps](#devops)
 2. [Mockups](#mockups)
-3. [RPG Stuff] (#rpgstuff)
+3. [RPG Stuff](#rpgstuff)
     - [General concepts](#generalConcepts) 
 - - -
 # Technologies involved <a name="technologies"></a>
@@ -184,6 +184,18 @@ We have one folder inside the client that contains all the test related to the R
  
 # RPG STUFF <a name="rpgstuff"></a>
 <p align="center"><img width="125" height="125" src="https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/edd/2015/07/Super-Platformer-Royalty-Free-Game-Art-Set.png"/></p>
+
 Here you can discover all the general concepts that involves ***the behavior of our rpg rules*** and how these are applied into the chat rooms. Obviously you can contribute with your own rules, skills, attributes or new behaviors that changes the effect of certain skills or level reaches. First of all, **make sure that you understand the core workflow** and the limits that the rules set into our rpg workflow to achieve a good balance between users interactions.
+- - -
+## General concepts <a name="generalConcepts"></a>
+ - **Purpose:** 
+ There is nowhere to go in this game, the user experience is focused since first minute into the application. The fun here is grow up the level fighting each others, unlock new skills and achievements, while the user are understanding how the game works. 
+ - **Limited energy:** In order to make the user thinking where and who use his skills we limit the energy the user can burn depending on the level that actually have *(or some powerUps)* then we avoid the skill spamming and the abuse from high level users. The energy recharges automatically and the recuperation speed depends on the level and can be upgraded with the properly power-ups  *(More into the [power-ups](#powerups))*
+ - **Message is the key:**
+ The user only can attack another users by writing a message, the message are the main containers, each message oscillate the skills and the powerUps depending on the user level and what decisions made before sent the message.
+ *(More into the [table level](#tableLevel))* **If the message don't have any target** it means that it's a neutral message with just information of some type *(text, images or some else)* and no one is damaged or affected by this message.
+
+
+ - 
 
 
