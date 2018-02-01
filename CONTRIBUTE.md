@@ -6,6 +6,12 @@
 
 #### We're open to all the corrections you can do in this document, all of us can benefit thanks to your voluntary effort :)
 
+
+## Open issues now: 
+#### Custom image or logo designs for the contribute page *(for each section)*
+
+
+
 ## Content index 
 1. [Technologies categorized by field](#technologies)
    - [Front-End](#frontend)
@@ -18,7 +24,9 @@
         - [Models](#models)
         - [Attributes explained](#attributes)
    - [DevOps](#devops)
-2. []()
+2. [Mockups](#mockups)
+3. [RPG Stuff] (#rpgstuff)
+    - [General concepts](#generalConcepts) 
 - - -
 # Technologies involved <a name="technologies"></a>
 ### The main technologies we're using right now to make this real are [React.JS](https://reactjs.org) combined with [Node.JS](https://nodejs.org) and [Socket.IO](https://socket.io). 
@@ -163,10 +171,19 @@ The probability by which an attack or a skill can be repeated a number of times 
 The probability by which an attack can be modified with an extra damage based on multipliers.
 - - -
 
-### Tests (all the folders would be named "test")
+### Tests *(all the folders would be named "tests")* 
+###### Important notice here, this project avoid in most of the cases the use of the comments inside the code an exception of specific notes that gives a better understanding around the logic where it was introduced. The tests are our "official" documentation and we trust that provides a better reliability in long-term way.
+
 #### Server-side (Mocha + Chai ~ Chai-HTTP)
 We have one folder inside the API that contains all the tests related to the API endpoints and each individual model. [Mocha](https://mochajs.org) and [Chai](https://chaijs.com) are the chosen ones for this job on the server side, with a simple script in the **package.json** we can test all the files that ends with the format ***.test.js***. It's really easy to work with asynchronous code thanks to Mocha framework and chai-http library. 
 
 #### Client-side (Jest)
-We have one folder inside the client that contains all the test related to the React components and all the Javascript stuff, 
+We have one folder inside the client that contains all the test related to the React components and all the Javascript stuff. Jest is the chosen one for this project because of its simplicity, reliability and of course the **zero configuration** that provides us a better workflow which we can focus to develop the tests.
  
+ 
+ 
+# RPG STUFF <a name="rpgstuff"></a>
+<p align="center"><img width="125" height="125" src="https://s3.amazonaws.com/gameartpartnersimagehost/wp-content/uploads/edd/2015/07/Super-Platformer-Royalty-Free-Game-Art-Set.png"/></p>
+Here you can discover all the general concepts that involves ***the behavior of our rpg rules*** and how these are applied into the chat rooms. Obviously you can contribute with your own rules, skills, attributes or new behaviors that changes the effect of certain skills or level reaches. First of all, **make sure that you understand the core workflow** and the limits that the rules set into our rpg workflow to achieve a good balance between users interactions.
+
+
