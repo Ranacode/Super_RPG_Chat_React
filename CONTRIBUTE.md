@@ -8,11 +8,14 @@
 
 
 ## Open tasks now: 
-- [ ] Custom image or logo designs for the contribute page *(for each section)*
-- [ ]  Mockups p--> PROFILE PAGE / A CHAT ROOM / ACHIEVEMENT ZONE
+- [ ] Custom images or logo designs for the contribute page *(for each section)*
+- [ ]  [Mockups](#mockups) 
 - [ ]  A solid base for the rpg user interactions
-- [ ]  Rewards for the highscore tops 
-
+- [ ]  Rewards for the highscore tops
+- [ ] Level rise table
+- [ ] Server skeleton
+- [ ] Authentication with OAuth2.0 *(Google, Facebook, Twitter)*
+  
 
 ## Content index 
 1. [Technologies categorized by field](#technologies)
