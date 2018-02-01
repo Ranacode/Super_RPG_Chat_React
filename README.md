@@ -1,5 +1,5 @@
 # Super RPG Chat
-The next generations of Super Saiyan Chats start here, be the awesome contributor that allows this project grow up to the moon.
+The next generations of Super RPG Chats start here, be the awesome contributor that allows this project grow up to the moon.
 If you are a happy ***programmer || designer || translator || writer*** or whatever you can imagine and want to contribute this project, just read the [CONTRIBUTE.md](https://github.com/Ranacode/Super_Saiyan_Chat_React/blob/master/CONTRIBUTE.md) before make anything else in an attempt to get a proper organization.
 
 ![Goku kamehameha](https://78.media.tumblr.com/03169a22c6d6cf88f63b3c2adb0d9706/tumblr_omqjomUpxw1rqur4vo1_500.gif)
@@ -7,7 +7,7 @@ If you are a happy ***programmer || designer || translator || writer*** or whate
 ## What's the main goal of this project?
 The main goal it's be able to achieve that ***the first experience contributing in an open source project for a beginner programmer can be lived here.*** The rest of the goals are simple, make an interactive chat that allow users share between them something more than text, images and links. **An RPG perspective** while the chat is running, the users can attack others through the messages, use skills for more powerful attacks or defenses, grow up the level and the score, unlock achievements and a lof of stuff you can imagine!.
 
-The rules of the interactions can be discussed in the [CONTRIBUTE.md](https://github.com/Ranacode/Super_Saiyan_Chat_React/blob/master/CONTRIBUTE.md)
+The rules of the interactions inside the mechanics can be discussed in the [CONTRIBUTE.md](https://github.com/Ranacode/Super_Saiyan_Chat_React/blob/master/CONTRIBUTE.md)
 
 ![maingoal_gif](https://78.media.tumblr.com/7d07808c1a5c3797f04bc82a0baf3a37/tumblr_inline_nu4iu7tQET1s22cpf_500.gif)
 
