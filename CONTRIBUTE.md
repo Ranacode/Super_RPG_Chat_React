@@ -8,10 +8,10 @@
 
 
 ## Open tasks now: 
-#### Custom image or logo designs for the contribute page *(for each section)*
-#### Mockups p--> PROFILE PAGE / A CHAT ROOM / ACHIEVEMENT ZONE
-#### A solid base for the rpg user interactions
-
+- [ ] Custom image or logo designs for the contribute page *(for each section)*
+- [ ]  Mockups p--> PROFILE PAGE / A CHAT ROOM / ACHIEVEMENT ZONE
+- [ ]  A solid base for the rpg user interactions
+- [ ]  Rewards for the highscore tops 
 
 
 ## Content index 
@@ -190,15 +190,22 @@ We have one folder inside the client that contains all the test related to the R
 Here you can discover all the general concepts that involves ***the behavior of our rpg rules*** and how these are applied into the chat rooms. Obviously you can contribute with your own rules, skills, attributes or new behaviors that changes the effect of certain skills or level reaches. First of all, **make sure that you understand the core workflow** and the limits that the rules set into our rpg workflow to achieve a good balance between users interactions.
 - - -
 ## General concepts <a name="generalConcepts"></a>
- ### **Purpose:** 
- There is nowhere to go in this game, the user experience is focused since first minute into the application. The fun here is grow up the level fighting each others, unlock new skills and achievements, while the user are understanding how the game works and then try to unlock the more harder achievements. 
- ### **Limited energy:** 
+ ### Purpose:
+ There is nowhere to go in this game, **the user experience is focused since first minute into the application.** The fun here is grow up the level fighting each others, unlock new skills and achievements, while the user are understanding how the game works and then try to unlock the more harder achievements. 
+ ### Limited energy: 
  ***In order to make the user thinking where and who use his skills*** we limit the energy the user can burn depending on the level that actually have *(or some powerUps)* then we avoid the skill spamming and the abuse from high level users. The energy recharges automatically and the recuperation speed depends on the level and can be upgraded with the properly power-ups  *(More into the [power-ups](#powerups))*
- ### **Message is the key:**
+ ### Message is the key:
  ***The user only can attack another users by writing a message,*** the message are the main containers, each message oscillate the skills and the power-ups depending on the user level and what decisions made before sent the message.
  *(More into the [table level](#tableLevel)).*
  **If the message don't have any target** it means that it's a neutral message with just information of some type *(text, images or some else)* and no one is damaged or affected by this message.
  **Each user can *turn on* the neutral zone** where they cannot be damaged, all the messages with this option activated **will be neutrals,** that mean that it will not affect any user. For this reason it's named **"Neutral zone"** *(More into the [neutral_zone](#neutralZone))*.
+
+### HighScore:
+<p align="center"><img width="175" height="125" src="http://pixelartmaker.com/art/642ee58998e0c8b.png"/></p>
+
+***Shows every month the top 10 users*** that gain *more score,* the top 10 that did *more damage* and the top 10 that unlocked *more achievements.* This informations is saved in the user profile too and it can be seen by others.
+
+The rewards are divided by category and position, this zone it's better described on the [#Rewards zone](#rewards) and you can contribute with new rewards ideas. 
 
 
 
