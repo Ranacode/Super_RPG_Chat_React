@@ -61,8 +61,8 @@ Our real-time engine it's **Socket.IO,** the version 2.0 it's better than the ol
  It's the zero configuration tool to testing javascript, especially a React project. We choose it based on his ease of doing tests.
  
 - - -
-
 # Front-End <a name="frontend"></a>
+<p align="center"><img width="200" height="150" src="https://www.workforz.com/wp-content/uploads/2016/02/phpwxh8iK.jpg"/></p>
 The client was started with the official boilerplate from the React team so we can focus on develop the components without worrying about configurations. For now, we're not gonna eject the webpack configuration but I don't dismiss out doing in the future.
 
 ## React - *Working on it...* <a name="react"></a>
@@ -72,9 +72,13 @@ The client was started with the official boilerplate from the React team so we c
 ## Third-Party libraries - *Working on it...* <a name="third_party"></a>
 
 # Back-End <a name="backend"></a>
+<p align="center"><img width="200" height="150" src="https://static1.squarespace.com/static/5594e714e4b0f2448bc41c42/t/577b80be3e00bef06962f203/1467711694603/"></p>
+
 **Node, Express, MongoDB + mongoose(ODM) and Socket.IO** will be the main stack for now but I'm doing a research around the real-time database **"RethinkDB"** and seems very good, maybe **MongoDB** will be replaced by this database but don't freak out just keep it mind for future releases.
 
 ## RESTful API with ExpressJS <a name="api"></a>
+<p align="center"><img width="200" height="175" src="http://mherman.org/assets/img/blog/node-restful-api.png"></p>
+
 With the help of [Express.JS](https://expressjs.com) we're building an API that contains all the resources and logical operations that the client-side needs to interact with our web application. **The folder structure of our API are organized by three main folders:**
 
 ### Endpoints <a name="endpoints"></a>
@@ -174,6 +178,8 @@ The probability by which an attack can be modified with an extra damage based on
 - - -
 
 ### Tests *(all the folders would be named "tests")* 
+<p align="center"><img width="200" height="200" src="http://testing-companies.com/wp-content/uploads/2017/03/TEST.png"></p>
+
 ###### Important notice here, this project avoid in most of the cases the use of the comments inside the code an exception of specific notes that gives a better understanding around the logic where it was introduced. The tests are our "official" documentation and we trust that provides a better reliability in long-term way.
 
 #### Server-side (Mocha + Chai ~ Chai-HTTP)
