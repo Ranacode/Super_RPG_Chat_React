@@ -1,4 +1,4 @@
-# Super Saiyan Chat
+# Super RPG Chat
 The next generations of Super Saiyan Chats start here, be the awesome contributor that allows this project grow up to the moon.
 If you are a happy ***programmer || designer || translator || writer*** or whatever you can imagine and want to contribute this project, just read the [CONTRIBUTE.md](https://github.com/Ranacode/Super_Saiyan_Chat_React/blob/master/CONTRIBUTE.md) before make anything else in an attempt to get a proper organization.
 
