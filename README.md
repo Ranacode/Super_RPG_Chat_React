@@ -18,7 +18,7 @@ The people gain experience talking in the chat, sharing images, attack others, u
 
 ![Fighting_gif](https://78.media.tumblr.com/451f87dfe831b876135f9bdb6de24570/tumblr_o6sqmceRQe1u7487lo1_500.gif)
 
-## Do should I be an experience programmer to contribute?
+## Should I be an experienced programmer to contribute?
 The final answer is not, you don't need to be a experience programmer in order to contribute on this project. ***You can contribute with ideas, bug fixes, test, new functionalities, designs, styles, translations and so on.*** All the people can contribute without needing a programming background, even you can request the modification of this document!.
 
 ![just_do_it](https://www.collegemagazine.com/wp-content/uploads/2016/11/giphy-2-10.gif)
